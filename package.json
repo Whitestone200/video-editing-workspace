@@ -1,7 +1,7 @@
 {
   "name": "video-editing-workspace",
   "private": true,
-  "description": "Locked MCP servers for Hireline video editors. Change versions only via the upgrade checklist in AGENTS.md.",
+  "description": "Locked MCP servers for Hireline video editors.",
   "engines": {
     "node": ">=20.19.0"
   },

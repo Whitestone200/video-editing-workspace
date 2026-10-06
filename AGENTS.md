@@ -10,14 +10,3 @@ Editors run their agent from this folder on the same computer as their editing a
 
 1. Start with the app's read-only connection check (Premiere: `verify_premiere_connection`). If it fails or the tools are missing, stop and point the editor to `README.md`. Never work around it with raw scripts, unsafe modes, or hidden APIs.
 2. Never delete source media, overwrite the original project, or upload, publish, or share anything unless asked.
-
-## Upgrading or adding an MCP server
-
-Each package's code runs with the editor's file access, so treat every version change as a security review.
-
-1. Confirm the npm publisher and GitHub repo owner haven't changed since the last upgrade.
-2. Read the changelog and the code diff between the current and new versions.
-3. Run `npm install <package>@<version> --save-exact --ignore-scripts`, then `npm audit signatures`.
-4. Commit `package.json` and `package-lock.json` together. Editors run `git pull` and re-run setup.
-
-Never use version ranges, `npx`, or unpinned installs for MCP servers.

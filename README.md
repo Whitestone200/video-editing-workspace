@@ -18,4 +18,4 @@ You'll need a Mac, [Node.js](https://nodejs.org) 20.19+, and [Claude Code](https
 
 **Problems?** Make sure you ran `claude` from this folder, Premiere has a project open, and the panel is open. Then re-run setup. In Claude, `/mcp` shows whether the server is connected.
 
-Agent rules and the upgrade process are in [AGENTS.md](AGENTS.md).
+Agent rules are in [AGENTS.md](AGENTS.md).
