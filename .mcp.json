@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "premiere-pro": {
-      "command": "npx",
-      "args": ["-y", "premiere-pro-mcp@1.19.1"]
+      "command": "node",
+      "args": ["node_modules/premiere-pro-mcp/dist/index.js"]
     }
   }
 }
