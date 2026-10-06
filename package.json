@@ -1,0 +1,11 @@
+{
+  "name": "video-editing-workspace",
+  "private": true,
+  "description": "Locked MCP servers for Hireline video editors.",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "premiere-pro-mcp": "1.19.1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "premiere-pro": {
+      "command": "node",
+      "args": ["node_modules/premiere-pro-mcp/dist/index.js"]
+    }
+  }
+}
