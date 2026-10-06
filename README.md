@@ -21,5 +21,3 @@ Connects through [premiere-pro-mcp](https://github.com/leancoderkavy/premiere-pr
 5. Send: `Run verify_premiere_connection. Make no changes.`
 
 **Updating:** quit Premiere, `git pull`, and re-run `bash setup/premiere/mac.sh`.
-
-**Problems?** Make sure you ran `claude` from this folder, Premiere has a project open, and the panel is open. Then re-run setup. In Claude, `/mcp` shows whether the server is connected.
