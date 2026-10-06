@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Installs the locked MCP servers and editing-app connectors. Re-run after `git pull`.
+# Sets up Premiere Pro: installs the locked MCP server and the Premiere connector. Re-run after `git pull`.
 set -euo pipefail
-cd "$(dirname "${BASH_SOURCE[0]}")/.."
+cd "$(dirname "${BASH_SOURCE[0]}")/../.."
 
 fail() { printf '\n✗ %s\n' "$1" >&2; exit 1; }
 
