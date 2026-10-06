@@ -10,7 +10,6 @@ Editors run their agent from this folder on the same computer as their editing a
 
 1. Start with the app's read-only connection check (Premiere: `verify_premiere_connection`). If it fails or the tools are missing, stop and point the editor to `README.md`. Never work around it with raw scripts, unsafe modes, or hidden APIs.
 2. Never delete source media, overwrite the original project, or upload, publish, or share anything unless asked.
-3. After a change, read the result back from the app. Report what was verified and what wasn't.
 
 ## Upgrading or adding an MCP server
 
